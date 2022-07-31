@@ -1,5 +1,7 @@
 # My windows terminal setup
 
+- [Finalizando](#Finalizando)
+
 ## Introducción
 
 El presente repositorio es una guía básica para instalar mi configuración en la terminal de `Windows`, todos los archivos necesarios para la instalación de esta configuración estarán disponibles para su descarga mediante la clonación de este repositorio.
@@ -12,7 +14,7 @@ Obtener una configuración para la terminal de Windows que nos permita optimizar
 
 ## Resultados
 
-![Resultado final](images/ls.png)
+![ls](https://user-images.githubusercontent.com/62488915/182048778-33efa534-0d52-422a-bf5e-ee078c6a854f.png)
 
 ---
 
@@ -30,25 +32,25 @@ Se deben instalar las fuentes necesarias para el correcto uso de la terminal, so
 
 En el presente repositorio se encuentra un archivo `Hack.zip` que contiene las fuentes que se deben instalar para el correcto uso de la terminal, para ello se debe descomprimir el archivo y luego instalar las fuentes como se muestra en la imagen.
 
-![Instalar fuente Hack Nerd](images/instalacion-fuente-de-letra-hack.png)
+![instalacion-fuente-de-letra-hack](https://user-images.githubusercontent.com/62488915/182048857-308a2b58-9f2b-4bc0-a67a-dc93b419bef8.png)
 
 ### Instalación de la terminal
 
 Vamos a instalar la terminal de Windows, para ello abrimos la Microsoft Store y buscamos la aplicación `Windows Terminal` y luego hacemos click en `Instalar`.
 
-![Instalar terminal](images/store.png)
+![store](https://user-images.githubusercontent.com/62488915/182048843-380cb2e0-8514-406a-853c-faccd4130cd2.png)
 
 También instalaremos la última versión de `PowerShell` para que podamos usarla en la terminal.
 
-![Instalar PowerShell](images/powershell.png)
+![powershell](https://user-images.githubusercontent.com/62488915/182048921-3b877323-cd04-460d-ac24-c2215bacf5e6.png)
 
 Dentro de la aplicación de Windows Terminal se encuentra una opción `Configuración` que nos permitirá configurar la terminal, en este caso seleccionaremos la opción de `Perfil predeterminado` y elegiremos **PowerShell**.
 
-![Configuración de la terminal](images/defecto.png)
+![defecto](https://user-images.githubusercontent.com/62488915/182048938-441d5479-d40c-4a9e-ba2c-ea8f38243186.png)
 
 En la sección de `Apariencia` habilitaremos la opción de material acrílico para que la terminal sea mas atractiva y se vea mejor.
 
-![Configuración de la terminal](images/acrilico.png)
+![acrilico](https://user-images.githubusercontent.com/62488915/182048955-c642eae3-94b7-46c1-9386-ddac971d64b6.png)
 
 para guardar la configuración de la terminal seleccionamos la opción `Guardar` y luego reiniciamos la terminal.
 
@@ -76,7 +78,7 @@ De nuevo en la configuración de la terminal seleccionamos la opción `Valores p
 
 Dentro de la configuración de la terminal, en la parte inferior izquierda seleccionaremos la opción de `Abrir archivo JSON`
 
-![Abrir json](images/json.png)
+![json](https://user-images.githubusercontent.com/62488915/182048975-0f837356-0c26-4226-b78c-b2d7f4856908.png)
 
 el cual desplegara un archivo *.json* que contiene la configuración de la terminal, el archivo se llama `settings.json`
 
@@ -179,7 +181,7 @@ Importante cambiar el nombre del tema, para ello seleccionaremos la opción `nam
 
 Finalmente guardaremos la configuración, y dentro de las configuraciones de la terminal, seleccionaremos la opción del nuevo tema que acabamos de crear.
 
-![Crear nuevo tema](images/nuevo_tema.png)
+![nuevo_tema](https://user-images.githubusercontent.com/62488915/182048989-2486f858-ec57-4af1-b674-741d04504b5c.png)
 
 ---
 
@@ -355,7 +357,7 @@ Install-Module -Name z -Force
 
 Ahora escribiremos `z <nombre-directorio>` para guardar el atajo a este directorio.
 
-![Z - Directory Jumper](images/z.png)
+![z](https://user-images.githubusercontent.com/62488915/182049026-935a09e7-7c96-4c25-accb-4d9341880df4.png)
 
 ### PSReadLine - Autocompletion
 
@@ -377,7 +379,7 @@ Para observar una lista desplegable con el historial de comandos, escribiremos e
 Set-PSReadLineOption -PredictionViewStyle ListView
 ```
 
-![historial](images/history.png)
+![history](https://user-images.githubusercontent.com/62488915/182049033-1428f545-d111-4875-ad24-9be69a53c224.png)
 
 ### Fzf - Fuzzy finder
 
@@ -401,7 +403,7 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 
 Ahora con `Ctrl+f` desplegara una lista de archivos encontrados en el directorio actual, y `Ctrl+r` para observar el histórico de comandos.
 
-![fzf](images/fzf.png)
+![fzf](https://user-images.githubusercontent.com/62488915/182049048-5a80b096-4083-4e30-91b3-29a4d14a8eb2.png)
 
 Regresamos a `~./config/powershell/user_profile.ps1` y escribiremos el siguiente comando:
 
