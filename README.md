@@ -1,5 +1,31 @@
 # My windows terminal setup
 
+- [Introducción](#Introducción)
+- [Motivación](#Motivación)
+- [Resultados](#Resultados)
+- [Primeros pasos](#Primeros-pasos)
+    - [Fuentes](#Fuentes)
+    - [Instalación de la terminal](#Instalación-de-la-terminal)
+    - [Instalación de la terminal](#Instalación-de-la-terminal)
+    - [Texto](#Texto)
+    - [Transparencia](#Transparencia)
+- [Personalización](#Personalización)
+    - [Modificación del tema](#Modificación-del-tema)
+    - [Creación de un nuevo tema](#Creación-de-un-nuevo-tema)
+- [Programas](#Programas)
+    - [Scoop](#Scoop)
+    - [Curl](#Curl)
+    - [Git for Windows](#Git-for-Windows)
+    - [Neovim](#Neovim)
+- [Creación de un perfil de usuario y configuracion de alias](#Creación-de-un-perfil-de-usuario-y-configuracion-de-alias)
+- [Instalación de Oh My Posh](#Instalación-de-Oh-My-Posh)
+- [Plugins para la terminal](#Plugins-para-la-terminal)
+    - [Terminal Icons](#Terminal-Icons)
+    - [Z Directory Jumper](#Z-Directory-Jumper)
+    - [PSReadLine Autocompletion](#PSReadLine-Autocompletion)
+    - [Fzf Fuzzy finder](#Fzf-Fuzzy-finder)
+    - [Git Aliases](#Git-Aliases)
+- [Bonus Extra](#Bonus-Extra)
 - [Finalizando](#Finalizando)
 
 ## Introducción
@@ -347,7 +373,7 @@ Import-Module -Name Terminal-Icons
 
 luego del reinicio ahora escribiremos `ll` (alias para `ls`) y veremos los iconos de los directorios.
 
-### Z - Directory Jumper
+### Z Directory Jumper
 
 Este es un plugin que nos permite navegar entre los directorios de la terminal de una manera más ágil, para ello escribiremos el siguiente comando:
 
@@ -359,7 +385,7 @@ Ahora escribiremos `z <nombre-directorio>` para guardar el atajo a este director
 
 ![z](https://user-images.githubusercontent.com/62488915/182049026-935a09e7-7c96-4c25-accb-4d9341880df4.png)
 
-### PSReadLine - Autocompletion
+### PSReadLine Autocompletion
 
 Este es un plugin que nos permite autocompletar los comandos de la terminal, para ello escribiremos el siguiente comando:
 
@@ -381,7 +407,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 ![history](https://user-images.githubusercontent.com/62488915/182049033-1428f545-d111-4875-ad24-9be69a53c224.png)
 
-### Fzf - Fuzzy finder
+### Fzf Fuzzy finder
 
 Este es un plugin que nos permite buscar archivos en la terminal, para ello escribiremos el siguiente comando:
 
